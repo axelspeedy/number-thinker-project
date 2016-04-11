@@ -1,7 +1,6 @@
 
 echo "Hello, What is your name [Type it in]"
 read name
-say Hello $name
 echo Hello, $name
 echo I am quite intelligent
 echo Do you want to play a game $name ? yes or no
@@ -11,13 +10,13 @@ read ans
 echo "Lets Go!" 
 echo "This is the...."
 sleep 1.5; echo "NUMBER THINKER!"
-say I am thinking of a number between 1 and 10, what is the number?
+
 echo "I am thinking of a number between 1 and 10, what is the number? [Type it in]"
 
 read helpfuf
 if [[ $helpfuf == $(( ( RANDOM % 10 )  + 1 )) ]];
 then 
-say "Good Job!"
+
 echo "You're Right"
 echo "Want to play again? [yes/no]"
 read playagain
