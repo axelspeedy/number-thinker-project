@@ -22,7 +22,7 @@ echo "Want to play again? [yes/no]"
 read playagain
 if [[ $playagain == yes ]]
 then 
-sleep 2; clear && ./game.sh
+sleep 2; clear && ./play.sh
 else
 exit
 fi
@@ -30,8 +30,16 @@ else
 
 
 echo "WRONG! Try again..."
+echo "Want to play again? [yes/no]"
+read playagain
+if [[ $playagain == yes ]]
+then 
+sleep 2; clear && ./play.sh
+else
+exit
+fi
 
-sleep 2; clear && ./game.sh
+sleep 2; clear && ./play.sh
 fi
 
 
