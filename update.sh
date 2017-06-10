@@ -6,6 +6,7 @@ cd number-thinker-project
 sudo chmod u+x game.sh
 sudo chmod u+x play.sh
 sudo chmod u+x update.sh
+clear
 echo "Update Done!"
 echo " Now move this current directory and delete everything else"
 pwd
