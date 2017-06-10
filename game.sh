@@ -31,7 +31,7 @@ else
 
 echo "WRONG! Try again..."
 
-sleep 2;cd && cd Desktop && clear && ./replay.sh
+sleep 2;cd && cd Desktop && clear && ./game.sh
 fi
 
 
