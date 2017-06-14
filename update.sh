@@ -2,6 +2,7 @@ echo "Updating..."
 echo "Type the directory path you would like this update installed to. eg '~/Desktop' or '/usr/share' OR type '..' install in the same place. Then press <ENTER>"
 read dir
 if ($dir === ..)
+then
 cd ..
 rmdir number-thinker-project
 git clone https://github.com/axelspeedy/number-thinker-project.git
